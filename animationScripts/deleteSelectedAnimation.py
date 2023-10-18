@@ -10,7 +10,6 @@ def deleteSelectedAnimation():
         c4d.StatusSetText("No Objects Selected!")
         return
 
-    doc.SetTime(c4d.BaseTime(0))
     c4d.DrawViews(c4d.DRAWFLAGS_ONLY_ACTIVE_VIEW|c4d.DRAWFLAGS_NO_THREAD|c4d.DRAWFLAGS_STATICBREAK)
 
 
@@ -26,6 +25,5 @@ def deleteSelectedAnimation():
 
 def main():
     deleteSelectedAnimation()
-
 if __name__=='__main__':
     main()

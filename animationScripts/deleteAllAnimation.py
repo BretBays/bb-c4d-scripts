@@ -21,7 +21,6 @@ def deleteAllAnimation(obj):
 
 def main():
     doc.StartUndo()
-    doc.SetTime(c4d.BaseTime(0))
     c4d.DrawViews(c4d.DRAWFLAGS_ONLY_ACTIVE_VIEW|c4d.DRAWFLAGS_NO_THREAD | c4d.DRAWFLAGS_STATICBREAK)
     obj=doc.GetFirstObject()
     deleteAllAnimation(obj)
