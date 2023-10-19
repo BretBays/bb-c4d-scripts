@@ -1,7 +1,7 @@
 import c4d
 from c4d import gui
 #This script is designed to convert joint weights to a vertex map on an object.
-#To use this scrip, simply select your polygon mesh with a weight tag, and the 
+#To use this scrip, simply select your polygon mesh with a weight tag, and the
 #joint or joints you wish to convert to vertex maps. It will then create a vertex
 #map per joint named "<jointName>_vmap"
 
@@ -55,6 +55,7 @@ def CopyJointToVertexMap(obj, wMap, joint):
 
         #print len(vMapData)
         vMap.SetAllHighlevelData(vMapData)
+        obj.Message(c4d.MSG_UPDATE)
 
 def main():
     doc.StartUndo()

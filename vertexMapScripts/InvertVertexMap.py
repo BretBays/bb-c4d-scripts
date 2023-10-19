@@ -26,7 +26,7 @@ def invertVertexMap(tag, useComponents=False, selPoints=[]):
 
     doc.AddUndo(c4d.UNDOTYPE_CHANGE, tag)
     tag.SetAllHighlevelData(data)
-
+    op.Message(c4d.MSG_UPDATE)
 
 
 def main():
