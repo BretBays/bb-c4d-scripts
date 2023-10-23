@@ -20,6 +20,8 @@ Download any and all files from the repository. Open up your copy of Cinema 4D a
 
 **InvertVertexMap** Will import your selected vertex map. If you have components selected, only those components will be inverted
 
+**NormalizeVertexMap** Select your mesh, select 2 tags, and it will normalize any weights whos combined value is more than 100% will be normalized.
+
 ## UTILITY SCRIPTS
 **ExtrudeEmAll**: Select all your splines, and it will put them all in an ExtrudeNURBS and turn on Hierarchical for you
 
