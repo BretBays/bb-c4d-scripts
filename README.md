@@ -7,7 +7,7 @@ Download any and all files from the repository. Open up your copy of Cinema 4D a
 # Overview
 
 ## ANIMATION SCRIPTS
-**DeleteAllAnimation.py/DeleteSelectedAnimation**: Quick script that lets you either kill all the animation within your scene, or just selected objects. Useful when rig testing.
+**[DeleteAllAnimation.py/DeleteSelectedAnimation](https://www.dropbox.com/scl/fi/1bdjzbscanbpq8r6tc20d/DeleteAllAnim.mp4?rlkey=u86m30bmzgjqequ1eapf6dpju&dl=0)**: Quick script that lets you either kill all the animation within your scene, or just selected objects. Useful when rig testing.
 
 **BB_Ghost**: Inspired by Brian Horgan's bh_ghost script for Maya, this script will take whatever polygonal objects you have selected and create 'Ghost' images for the current frame to help with your animation. It will overwrite existing ghosts if they already exist on this frame
 
