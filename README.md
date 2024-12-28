@@ -29,9 +29,13 @@ Download any and all files from the repository. Open up your copy of Cinema 4D a
 
 **[ParentToLastSelected](https://www.dropbox.com/scl/fi/nbmbf3yztagwj5o80vcar/ParentToLast.mp4?rlkey=wnrl3a1hgcr6lz2aamkt7689r&dl=0)**:Recreates Maya P key functionality for parenting objects by saying This object(s) should go under the last selected object. 
 
+**[createPSRTarget]**: Select an object, and this script will convert the object to a null, rename it with _targ, and then do a PSR constraint from the object to this target saving you a few manual steps. 
+
 ## WEIGHT SCRIPTS
 
 **[Increase/DecreaseWeightStrength](https://www.dropbox.com/scl/fi/c9ghx6wn82qvsnbuh4xtc/StrengthScripts.mp4?rlkey=s2ttve0vioffc3vzn1peqbca9&dl=0)**: Change the strength of the weights manager, weights brush, and paint brush(for vertex maps) by either 1, 5, or 10% depending on which keyboard modifiers you use. No modifier = 10%, CTRL = 5%, CTRL+SHIFT = 1% increments.
+
+**[Add/Abs/Intensity/SmoothMode]**: This set of scripts is designed to set the painting modes of the weight tool and weights manager to be either Add, Absolute, Smooth, or Intensity. The goal is to make it easy to assign these to shortcuts to make switching modes faster and easier.
 
 
 
